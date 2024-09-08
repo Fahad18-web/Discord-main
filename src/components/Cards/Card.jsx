@@ -101,7 +101,7 @@ function Card() {
           </div>
         </div>
 
-        <div className="container-fluid mt-[10vw] d-flex justify-content-center align-items-center">
+        <div className="container-fluid mt-[10vw]  d-flex justify-content-center align-items-center">
           <div className="d-flex justify-content-center align-items-center w-100">
             <motion.div
               className="custom-box d-flex flex-column flex-md-row overflow-hidden rounded-xl"
