@@ -1,0 +1,56 @@
+/* Style for the Navbar */
+.discord-navbar {
+  background-color: #23272a !important;
+  padding: 15px;
+}
+
+/* Space between Discord logo and text */
+.discord-navbar .navbar-brand img {
+  margin-right: 10px;
+}
+
+/* Style for Nav links */
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+/* Space for careers and login */
+.navbar-nav .nav-link:last-child {
+  margin-right: 20px;
+}
+
+/* Login Button */
+.login-container {
+  margin-left: auto; /* This aligns the login button to the right */
+}
+
+/* Login link style */
+.login-link {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 8px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Hover effect for the login button */
+.login-link:hover {
+  background-color: #f5f5f5;
+  color: black;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 991px) {
+  /* Space between "Careers" and "Login" in sidebar */
+  .navbar-nav .nav-link:last-child {
+    margin-bottom: 20px;
+  }
+
+  /* Add extra padding to Login button in sidebar view */
+  .login-link {
+    padding: 12px 40px;
+  }
+}
