@@ -4,13 +4,13 @@ import { Container, Row, Col } from 'react-bootstrap';
 const Content = () => {
   return (
     <>
-      <div className="bg-black text-white">
-        <Row className="sm:flex items-center justify-center">
-          <Col md={6} className="sm:flex items-center text-center flex-col p-3 max-sm:p-2">
-            <h1 className="sm:text-5xl font-bold p-4 max-sm:text-5xl">
+      <div className="bg-black text-white p-3 sm:flex">
+        <Row className="sm:flex items-center justify-center ml-10">
+          <Col md={6} className="sm:flex items-center flex-col p-3 max-sm:ml-10 ">
+            <h1 className="display-6 fw-bold text-uppercase mb-4 fs-1 w-[280px]">
               Group chat that’s all fun & games
             </h1>
-            <p className="sm:text-center text-3xl font-semibold max-sm:text-2xl p-2 ">
+            <p className="lead text-align-justify w-[280px]">
               Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.
             </p>
           </Col>
