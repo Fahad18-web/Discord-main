@@ -18,7 +18,7 @@ const Content = () => {
             <img
               src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/664daa37ea162cadf9603500_Art.webp"
               alt="Background Art"
-              className="img-fluid"
+              className="img-fluid bounce"
             />
           </Col>
         </Row>

@@ -62,7 +62,7 @@ function Card() {
               </div>
               <div className="right-side col-md-6 d-flex align-items-center text-center" style={rightSideStyle}>
                 <div>
-                  <h2 className='bounce' style={headingStyle}>Make your group chats more fun</h2>
+                  <h2 className='' style={headingStyle}>Make your group chats more fun</h2>
                   <p className="lead pt-4" style={paragraphStyle}>
                     Use custom emoji, stickers, soundboard effects, and more to add your personality to your voice, video, or text chat. Set your avatar and a custom status, and write your own profile to show up in chat your way.
                   </p>
@@ -84,7 +84,7 @@ function Card() {
             >
               <div className="right-side col-md-6 d-flex align-items-center text-center" style={rightSideStyle}>
                 <div>
-                  <h2  className='' style={headingStyle}>Stream like you’re in the same room</h2>
+                  <h2  className='bounce' style={headingStyle}>Stream like you’re in the same room</h2>
                   <p className="lead pt-4 font-semibold" style={paragraphStyle}>
                     High quality and low latency streaming makes it feel like you're hanging out on the couch with friends while playing a game, watching shows, looking at photos, or idk doing homework or something.
                   </p>
@@ -183,7 +183,7 @@ function Card() {
               <div className="right-side col-md-6 d-flex align-items-center text-center" style={rightSideStyle}>
                 <div>
                   <h2 style={headingStyle}>Hop in when you're free, no need to call</h2>
-                  <p className="lead pt-4" style={paragraphStyle}>
+                  <p className="lead pt-4 bounce" style={paragraphStyle}>
                     Easily hop in and out of voice or text chats without having to call or invite anyone, so your party chat lasts before, during, and after your game session.
                   </p>
                 </div>
