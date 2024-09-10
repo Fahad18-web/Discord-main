@@ -7,7 +7,7 @@ const DiscordNavbar = () => {
     <Navbar bg="dark" variant="dark" expand="lg" className="discord-navbar">
       <Container>
         {/* Adding pr-5 to create space between the logo and the navigation */}
-        <Navbar.Brand href="#home" className="d-flex align-items-center pr-5">
+        <Navbar.Brand href="#home" className="color-change d-flex align-items-center pr-5">
           <img
             src="https://www.svgrepo.com/show/353655/discord-icon.svg"
             width="30"

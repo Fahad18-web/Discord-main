@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import './Cards.css'
 function Card() {
   const customBoxStyle = {
     backgroundColor: '#1F75FE',
@@ -62,7 +62,7 @@ function Card() {
               </div>
               <div className="right-side col-md-6 d-flex align-items-center text-center" style={rightSideStyle}>
                 <div>
-                  <h2 style={headingStyle}>Make your group chats more fun</h2>
+                  <h2 className='bounce' style={headingStyle}>Make your group chats more fun</h2>
                   <p className="lead pt-4" style={paragraphStyle}>
                     Use custom emoji, stickers, soundboard effects, and more to add your personality to your voice, video, or text chat. Set your avatar and a custom status, and write your own profile to show up in chat your way.
                   </p>
@@ -84,7 +84,7 @@ function Card() {
             >
               <div className="right-side col-md-6 d-flex align-items-center text-center" style={rightSideStyle}>
                 <div>
-                  <h2 style={headingStyle}>Stream like you’re in the same room</h2>
+                  <h2  className='' style={headingStyle}>Stream like you’re in the same room</h2>
                   <p className="lead pt-4 font-semibold" style={paragraphStyle}>
                     High quality and low latency streaming makes it feel like you're hanging out on the couch with friends while playing a game, watching shows, looking at photos, or idk doing homework or something.
                   </p>
@@ -123,7 +123,7 @@ function Card() {
               <div className="right-side col-md-6 d-flex align-items-center text-center" style={rightSideStyle}>
                 <div>
                   <h2 style={headingStyle} className='max-sm:text-center'>Hop in when you're free, no need to call</h2>
-                  <p className="lead pt-4" style={paragraphStyle}>
+                  <p className=" bounce lead pt-4" style={paragraphStyle}>
                     Easily hop in and out of voice or text chats without having to call or invite anyone, so your party chat lasts before, during, and after your game session.
                   </p>
                 </div>
@@ -204,7 +204,7 @@ function Card() {
             >
               <div className="right-side col-md-6 d-flex align-items-center text-center" style={rightSideStyle}>
                 <div>
-                  <h2 style={headingStyle}>Hop in when you're free, no need to call</h2>
+                  <h2 className='' style={headingStyle}>Hop in when you're free, no need to call</h2>
                   <p className="lead pt-4" style={paragraphStyle}>
                     Easily hop in and out of voice or text chats without having to call or invite anyone, so your party chat lasts before, during, and after your game session.
                   </p>
@@ -222,8 +222,8 @@ function Card() {
           </div>
         </div>
 
-        <div className="text-center mt-4">
-      <h1 className="text-white pb-5 fw-bold">YOU CAN'T SCROLL ANYMORE. <br/>BETTER GO CHAT.</h1>
+        <div className="text-center mt-4 ">
+      <h1 className="bounce text-white pb-5 fw-bold">YOU CAN'T SCROLL ANYMORE. <br/>BETTER GO CHAT.</h1>
       <div className="mt-3" style={{ backgroundColor: '#014FC0', padding: '20px' }}>
         <img
           src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6658cc069d1eb1caf9426914_Footer-Art_cut-p-2000.webp"
