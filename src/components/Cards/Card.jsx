@@ -7,8 +7,8 @@ function Card() {
     borderRadius: '50px',
     border: '5px solid rgba(255, 255, 255, 0.2)',
     boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.2)',
-    width: '80vw',
-    margin: '30px auto 0 auto',
+    width: '60vw',
+    margin: '5vw 20vw',
     minWidth: '350px',
     overflow: 'hidden', // Ensure videos are not clipped
   };
