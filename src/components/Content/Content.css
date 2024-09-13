@@ -10,15 +10,17 @@
       opacity: 1;
     }
   }
+
+  .slide-in
   
-  .slide-in {
-    transform: translateX(-100%);
-    animation: slideIn 2s forwards;
+  .slide-out {
+    transform: translateX();
+    animation: slideOut 1s forwards;
   }
   
-  @keyframes slideIn {
-    to {
-      transform: translateX(0);
+  @keyframes slideOut {
+    from {
+      transform: translateX(50%);
     }
   }
   

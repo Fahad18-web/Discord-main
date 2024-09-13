@@ -43,7 +43,7 @@ function Card() {
     <>
       <div className='container-fluid ' style={{ background: '#014FC0', padding: '8px 4px'  }}>
         <div className="container-fluid  d-flex justify-content-center align-items-center">
-          <div className="d-flex justify-content-center align-items-center ">
+          <div className="d-flex justify-content-center align-items-center slide-out">
             <motion.div
               className="custom-box d-flex flex-column flex-md-row overflow-hidden rounded-xl"
               style={customBoxStyle}
@@ -60,7 +60,7 @@ function Card() {
                   loop
                 />
               </div>
-              <div className="right-side col-md-6 d-flex align-items-center text-center" style={rightSideStyle}>
+              <div className="right-side col-md-6 d-flex align-items-center text-center " style={rightSideStyle}>
                 <div>
                   <h2 className='' style={headingStyle}>Make your group chats more fun</h2>
                   <p className="lead pt-4" style={paragraphStyle}>
@@ -73,9 +73,9 @@ function Card() {
         </div>
 
         <div className="container-fluid mt-[10vw] d-flex justify-content-center align-items-center">
-          <div className="d-flex justify-content-center align-items-center w-100">
+          <div className="d-flex justify-content-center align-items-center w-100 slide-in">
             <motion.div
-              className="custom-box d-flex flex-column flex-md-row overflow-hidden rounded-xl"
+              className="custom-box d-flex flex-column flex-md-row overflow-hidden rounded-xl "
               style={customBoxStyle}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}

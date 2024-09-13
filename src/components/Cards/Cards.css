@@ -14,4 +14,25 @@
     }
   }
 
+  .slide-out {
+    transform: translateX(0);
+    animation: slideOut 1s forwards;
+  }
   
+  @keyframes slideOut {
+    from{
+      transform: translateX(50%);
+    }
+  }
+  
+
+  .slide-in {
+    transform: translateX(-100%);
+    animation: slideIn 2s forwards;
+  }
+  
+  @keyframes slideIn {
+    to {
+      transform: translateX(0);
+    }
+  }
